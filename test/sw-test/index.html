@@ -20,5 +20,16 @@
 </head>
 <body>
     <div style="width: 7.5rem;background: red;height:1rem;font-size: 12px;">字体大小</div>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw-test/sw.js').then(function(reg) {
+                // registration worked
+                console.log('Registration succeeded. Scope is ' + reg.scope);
+            }).catch(function(error) {
+                // registration failed
+                console.log('Registration failed with ' + error);
+            });
+        }
+    </script>
 </body>
 </html>
