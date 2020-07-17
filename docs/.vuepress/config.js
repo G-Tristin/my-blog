@@ -1,7 +1,7 @@
 const themeConfig = require('./config/theme/')
 
 module.exports = {
-  title: "jin-blog",
+  title: "jinyueqiangblog",
   description: 'Some people see the ugliness and chaos of the world, but I choose to see the beauty of the world!',
   dest: 'public',
   head: [

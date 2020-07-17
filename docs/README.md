@@ -5,7 +5,7 @@ bgImageStyle: {
   height: '450px'
 }
 faceImage: '/head.png'
-heroImage: /hero_write.png
+# heroImage: /hero_write.png
 heroImageStyle: {
   maxHeight: '200px',
   display: block,
