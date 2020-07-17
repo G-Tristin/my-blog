@@ -16,7 +16,7 @@ module.exports = {
   // 作者
   author: 'jinyueqiang',
   // 备案号
-  record: '暂无-待补',
+  record: '浙ICP备20025935号',
   // 项目开始时间
   startYear: '2020'
 }
